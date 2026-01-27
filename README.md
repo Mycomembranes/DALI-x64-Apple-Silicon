@@ -341,6 +341,14 @@ DALI_arm64/
     └── build_dali_arm64.sh # Automated build script
 ```
 
+## Potential Bugs
+The issue is:
+  1. The initial DALI matrix run (in /tmp/dali_run) showed "0 residues" for all structures
+  2. This was because the DSSP (secondary structure) step failed during import
+  3. The old dsspcmbi (2002) couldn't properly parse the AlphaFold3 PDB files
+
+  
+
 ## Citation
 
 If you use DALI, please cite:
