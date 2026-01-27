@@ -1,0 +1,18 @@
+--- parsizes.for.backup	2026-01-27 13:54:53
++++ parsizes.for	2026-01-27 13:55:28
+@@ -5,12 +5,14 @@
+         parameter (maxstack=10000,maxstack2=10000)
+         parameter (maxseg=200, maxdom=maxseg*2)
+         ! maxprot is number of PDB chains
++        ! Reduced from 1000000 to 10000 for macOS ARM64 compatibility
++        ! This limits pairwise comparisons to 10000 structures per list
+         integer maxprot,maxpair, maxnoccs
+         integer weight(1000)
+         integer scoretable(160,400)
+         integer infinit,nul
+         parameter (infinit=1e7,nul=-99)
+-        parameter (maxprot=1000000)
++        parameter (maxprot=10000)
+         parameter (maxatm=9999)
+         parameter (maxres=maxres2)
+         parameter (maxgrid=20)

@@ -1,0 +1,17 @@
+--- gagasizes.for.backup	2026-01-27 13:56:17
++++ gagasizes.for	2026-01-27 13:56:17
+@@ -1,11 +1,13 @@
+ c
+ c	include file for gaga*
++c	Modified for macOS ARM64 compatibility - reduced array sizes
+ c
+ 	integer popsize,maxres,maxpair,maxd,maxres0,maxdom
+ 	parameter(popsize=1)
+ 	parameter(maxd=2000)
+ 	parameter(maxpair=6000)
+-	parameter(maxres=5000,maxres0=maxres,maxdom=210)
++c	Reduced from 5000 to 2000 for macOS ARM64
++	parameter(maxres=2000,maxres0=maxres,maxdom=210)
+ 
+ c
+         character machine
