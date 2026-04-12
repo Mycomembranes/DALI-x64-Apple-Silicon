@@ -1,5 +1,17 @@
 # DaliLite.v5 for Apple Silicon (ARM64/M1/M2/M3)
 
+
+
+## Citation
+
+If you use DALI, please cite:
+
+> Holm L (2022) Dali server: structural unification of protein families.
+> Nucleic Acids Research 50(W1):W545-W552.
+> https://doi.org/10.1093/nar/gkac387
+> ARM64 patches made by me, Mukshud Ahamed (National Library of Medicine, and Stony Brook University // L Iyer & JCS labs)
+> i appreciate a shout out
+
 Native compilation of DaliLite.v5 structural alignment software for Apple Silicon Macs, eliminating the need for Docker x86 emulation.
 
 ## Overview
@@ -356,6 +368,8 @@ If you use DALI, please cite:
 > Holm L (2022) Dali server: structural unification of protein families.
 > Nucleic Acids Research 50(W1):W545-W552.
 > https://doi.org/10.1093/nar/gkac387
+> ARM64 patches made by me, Mukshud Ahamed (National Library of Medicine, and Stony Brook University // L Iyer & JCS labs)
+> i appreciate a shout out
 
 ## License
 
@@ -372,4 +386,4 @@ Contributions are welcome! Please:
 ## Acknowledgments
 
 - Original DALI software by Liisa Holm (University of Helsinki)
-- ARM64 patches developed for the rotifer bioinformatics framework
+- ARM64 patches made by me, Mukshud Ahamed (National Library of Medicine, and Stony Brook University // L Iyer & JCS labs)
