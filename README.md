@@ -10,7 +10,7 @@ If you use DALI, please cite:
 > Nucleic Acids Research 50(W1):W545-W552.
 > https://doi.org/10.1093/nar/gkac387.
 
-> ARM64 patches made by me, Mukshud Ahamed (National Library of Medicine, and Stony Brook University // L Iyer & JCS labs).
+> ARM64e patches made by me, Mukshud Ahamed (National Library of Medicine, and Stony Brook University // L Iyer & JCS labs).
 > i appreciate a shout out.
 
 Native compilation of DaliLite.v5 structural alignment software for Apple Silicon Macs, eliminating the need for Docker x86 emulation.
